@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="02logining.css">
+</head>
+
+<body>
+    <!-- 1.插入动图和li五个点 -->
+    <div>
+        <img src="Photo/21神奇蛋动图.gif" alt="" width="50%">
+        <div class="lis">
+            <ul>
+                <li class="dian active">.</li>
+                <li class="dian active">.</li>
+                <li class="dian active">.</li>
+                <li class="dian active">.</li>
+                <li class="dian active">.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!--2.利用JavaScript实现五个点逐渐消失的效果 -->
+    <script>
+        var lis = document.getElementsByClassName('dian');
+        var index = 0;
+        var timer = 0;
+
+        // 设置执行删除和指定点函数（修改css样式和遍历）
+        var goIndex = function () {
+            lis[index].className = 'dian';
+        }
+        console.log(lis.length);
+        var goPre = function () {
+            if (index < lis.length) {
+                goIndex();
+                index++;
+            }
+        }
+
+        //设置每个点消失的时长间隔为1s
+        timer = setInterval(function () {
+            goPre();
+        }, 1000);
+
+        //计时当5.5s时跳转到第3个页面
+        function GoTo() {
+            location.href = "03menus.html";
+        }
+        setTimeout("GoTo()", 5500);
+
+    </script>
+</body>
+
+</html>

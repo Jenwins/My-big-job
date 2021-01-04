@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .head{
+            width: 100%;
+            height: 500px;
+            text-align: center;
+            margin: auto;
+            position: relative;
+        }
+
+        .img1{
+            width: 80%;
+            height: 55%;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+        }
+
+        .container{
+            margin-left: 850px;
+            margin-top: 100px;
+            width: 200px;
+            height: 200px;
+            position: relative;
+            transform-style: preserve-3d;
+            transform: rotate(-20deg) rotateY(-20deg);
+            animation: rotate 10s linear alternate forwards infinite;
+        }
+
+        .container .item{
+            position:absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0.7;
+        }
+
+        .container .front{
+            transform:translateZ(100px);
+        }
+        .container .back{
+            transform:rotateY(180deg) translateZ(100px);
+        }
+        .container .left{
+            transform:rotateY(-90deg) translateZ(100px);
+        }
+        .container .right{
+            transform:rotateY(90deg) translateZ(100px);
+        }
+        .container .top{
+            transform:rotateX(90deg) translateZ(100px);
+        }
+        .container .bottom{
+            transform:rotateX(-90deg) translateZ(100px);
+        }
+        @keyframes rotate{
+        0%,5%{
+            transform: rotateY(90deg);
+        }
+        20%,25%{
+            transform: rotateY(180deg);
+        }
+        40%,45%{
+            transform: rotateY(270deg);
+        }
+        60%,65%{
+            transform: rotateX(-90deg);
+        }
+        80%,85%{
+            transform: rotateX(0);
+        }
+        95%,100%{
+            transform: rotateX(90deg);
+        }
+        }
+        
+    
+    body{
+        background-color:rgba(8, 191, 247, 0.2);
+    }
+
+    .body{
+        width:60%;        
+        position: absolute;
+        right:  500px;
+        top:300px;
+        text-align: center;
+        color: rgb(13, 13, 14);
+        background: url(Photo/05摆渡人.jpg) no-repeat 120px;
+        opacity: 0.8;
+
+    }
+
+    .bodyp1{
+        margin-top:10px ;
+        font-size: 30px;
+        font-family: 宋体;
+        color: white;
+    }
+    .body2{
+        width: 10px;
+        color: rgb(21, 174, 235);
+        font-size: 30px;
+        font-family: 宋体;
+        position:absolute;
+        right: 520px;
+        top: 300px;
+    }
+
+    .body1{
+        position:absolute;
+        right: 200px;
+        top: 300px;
+        text-align: center;
+    }
+
+    .pre{
+        position:absolute;
+        right: 80px;
+        top: 550px;
+        text-align: center;
+    }
+
+    .body3{
+        width: 10px;
+        color: rgb(21, 174, 235);
+        font-size: 30px;
+        font-family: 宋体;
+        position:absolute;
+        right: 220px;
+        top: 900px;
+    }
+
+ 
+    li{
+   
+    padding: 10px;
+    list-style: none;
+    float: left;
+    position: relative;
+    left: 150px;
+    top: -50px;
+    margin:0 27px;
+    color:rgb(245, 247, 247);
+    background-color:rgba(119, 119, 116,0.5);
+    border-radius: 20px;
+    
+}
+
+    li:hover{
+    color: rgba(8, 245, 233, 0.9);
+    transition: 1s;
+    border-radius: 15px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="head">
+        <img src="Photo/52上导航背景.jpg" alt="" class="img1">
+        <ul>
+            <li class="bannerli">登录页面</li>
+            <li class="bannerli">个人简介</li>
+            <li class="bannerli">菜单页面</li>
+            <li class="bannerli">人格类型</li>
+            <li class="bannerli">亲人羁绊</li>
+            <li class="bannerli">友谊线络</li>
+            <li class="bannerli">成长历程</li>
+        </ul>
+    </div>
+<div class="container">
+    <div class="item front"><img src="Photo/053椿.jpg" alt=""></div>
+    <div class="item back"><img src="Photo/54湫.jpg" alt=""></div>
+    <div class="item left"><img src="Photo/55椿与鲲.jpg" alt=""></div>
+    <div class="item right"><img src="Photo/56椿和鹏.jpg" alt=""></div>
+    <div class="item top"><img src="Photo/57椿与湫.jpg" alt=""></div>
+    <div class="item bottom"><img src="Photo/58椿与湫1.jpg" alt=""></div>
+</div>
+
+<div class="body">
+<div class="we">
+    <p class="bodyp1">
+    摆渡人
+    </p>
+    <strong>
+    <pre><p class="bodyp2">        
+知道再无可逃避
+
+        迪伦发现自己离不开这个男孩，        
+      
+自己宁愿忍受荒原的种种威胁也要和他在一起。
+
+而这时崔斯坦只好答应他，
+
+和她一块跨过那道分界线。
+
+迪伦信以为真，高兴地走在前面。然而，当她再回头时，
+
+         却发现，        
+         
+ 身后除了空旷的荒原与迷蒙的光线外，一无所有！
+
+绝望。
+
+此刻，除了跨过那条线，她别无选择。
+
+ 一门之隔，
+ 
+ 她步入了一个完全不同的世界，
+ 
+ 一个没有恶魔，
+ 
+ 没有危险的世界。
+ 
+ 在这儿，
+ 
+ 她见到了那些
+ 
+ 成功穿越荒原而抵达的灵魂，
+ 
+ 包括一些被崔斯塔所摆渡的灵魂
+ 
+ 这儿的人，
+ 
+ 或者说是这儿的灵魂，经历了生死，
+ 
+ 经历了荒原的恐怖，唯一的奢望，就是在这儿静静地等着自己的亲人，
+ 
+ 有朝一日能在此团聚。
+ 
+ 可是，
+ 
+ 迪伦的心却不在这儿
+ 
+ 终于，当有人告诉她返回荒原也不是不可能的时候，她的心，
+ 
+ 又动了！
+    </p>
+</pre>
+</strong>
+</div>
+</div>
+<div class="body2">
+    <p>
+     /*圣诞快乐*/
+    </p>
+</div>
+
+<div class="body1">
+ 
+    <pre>
+        他的手伸出，静默地颤抖，几番停驻，
+        
+        终于还是收了回去 。
+        
+        “祝你圣诞快乐。”他说。
+        
+        爱是想要触碰，却又收回的手。
+        
+        他没说，可是谁都知道，他也爱她 ...
+        
+        让人魂牵梦萦，心神俱碎的，不仅仅是我爱你。
+
+        而是，我爱你。
+
+        再见。
+    </pre>
+    <pre class="pre">
+  
+
+上邪！
+
+我欲与君相知，
+
+长命无绝衰。
+
+山无陵，
+
+江水为竭，
+
+冬雷震震，
+
+夏雨雪，
+
+天地合，
+
+乃敢与君绝。
+</pre>
+
+</div>
+<div class="body3">   
+    <p>
+     /*上邪*/
+    </p>
+</div>
+
+</body>
+</html>
