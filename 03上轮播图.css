@@ -1,0 +1,96 @@
+.warp {
+    width: 400px;
+    height: 400px;
+    position: relative;
+   
+
+}
+
+/* 图片的ul */
+.list {
+    margin: 50px  0px ;
+    width:50%;
+    height:300px;
+    list-style: none;
+    position: absolute;
+}
+
+/* 图片的li */
+.item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* 0.8s淡入淡出效果*/
+    transition: all .8s;
+}
+
+.item:nth-child(1) {
+    background-image: url(Photo/32天空之城.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.item:nth-child(2) {
+    background-image: url(Photo/33萤火之森.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.item:nth-child(3) {
+    background-image: url(Photo/34变瘦.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.item:nth-child(4) {
+    background-image: url(Photo/35哈尔.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.item:nth-child(5) {
+    background-image: url(Photo/36朝花夕誓.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#goPre {
+    left: 0px;
+}
+
+#goNext {
+    right: 0px;
+}
+
+.item.active {
+    z-index: 10;
+    opacity: 1;
+}
+
+/* 点的ul */
+.pointList {    
+    list-style: none;
+    float: left;
+    position: relative;
+    left: 450px;
+    z-index: 1000;
+}
+
+/* 点的li */
+.point {
+    width: 5px;
+    height: 5px;
+    border: 2px solid rgba(196, 105, 105, 0.6);
+    background-color: rgba(117, 18, 18, 0.2);
+    border-radius: 100%; /*圆点*/    
+    float: left;
+    margin: 10px ;
+    margin-top: 310px;    
+    cursor: pointer;/* 出手的形状 */
+
+}
+
+/* 控制播到该照片时点为实心的的时候 */
+.point.active {
+    background-color: rgba(255, 255, 255, 0.8); 
+}

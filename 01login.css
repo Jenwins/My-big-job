@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    background: url(Photo/唯美光之背景.jpg) no-repeat;
+    background-size: 100%;
+
+}
+
+
+#headphoto {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: auto;
+    display: table-cell;
+    margin-top: 60px;
+    opacity: 0.9;
+}
+
+.p1btn {
+    text-align: center;
+    line-height: 30px;
+}
+
+.p1btn .btn{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    opacity: 0.9;
+    border: none;
+    border-radius: 30px;
+}
+
+.login {
+    text-decoration: none;
+    color: rgb(34, 135, 218);
+    font-size: 16px;
+    font-family: 仿宋;
+}
+
+.login:hover {
+    transition: 1s;
+    color: plum;
+}
+
+.p1input input {
+    width: 150px;
+    height: 20px;
+    border: none;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+.p1input {
+    text-align: center;
+}
+
+
+.p1word {
+    position: absolute;
+    text-align: center;
+    margin: 80px 0 0 0;
+    top: 350px;
+    right: 535px;
+    opacity: 0.5;
+}    
+
+.p1logo {
+    text-align: center;
+    margin: 30px 55px;
+    position: absolute;
+    right: 417px;
+    top: 430px;
+}
+
+.logo {
+    width: 30px;
+    margin: 25px;
+    position: relative;
+    float: left;
+
+}
+
+.logo:hover {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+
+}

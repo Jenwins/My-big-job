@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jQuery.min.js"></script>
+    <link rel="stylesheet" href="04布局样式.css">
+
+</head>
+
+<body>
+    <div class="head">
+        <img src="Photo/41个人主页背景.jpg" alt="" id="p1">
+        <img src="Photo/42风铃女孩.jpg" alt="" id="p2">
+
+        <img src="Photo/43我的大头照1.png" alt="" id="p3">
+        <ul class="ul1">
+            <li class="li1"><a href="">登录页面</a></li>
+            <li class="li1"><a href="">菜单页面</a></li>
+            <li class="li1"><a href="">灵魂伴侣</a></li>
+            <li class="li1"><a href="">人格类型</a></li>
+            <li class="li1"><a href="">亲人羁绊</a></li>
+            <li class="li1"><a href="">友谊线络</a></li>
+            <li class="li1"><a href="">成长历程</a></li>
+
+        </ul>
+
+        <ul class="ul2">
+            <li class="li2">
+                <p class="w1">
+                    这么一个我
+                </p>
+                <p class="w2">
+                    现江理软开193的一名码迷曹嘉雯。略微偏执，但一般和谁都玩得来（和我玩不来的对方着实该反思）。爱发呆，日常悠闲。
+                    静若处子，动若脱兔。个体缺点多，但相对乐观。终吾一生，渴望生活。
+
+                </p>
+            </li>
+            <li class="li2">
+                <p class="w4">来日有方长</p>
+                <p class="w5">觉得有可改良之处的码迷们可在此留言哦！谢谢你看到了这里。祝彼此在码迷的道路上越走越开心！</p>
+            </li>
+            <li class="li2">
+                <p class="w3">
+                    码迷留言处
+                </p>
+
+        </ul>
+        <div class="box" id="weibo">
+            <textarea name="" class="txt" cols="30" rows="10"></textarea>
+            <br>
+            <button class="btn">发布</button>
+
+            <ul class="ul22">
+                <li class="li3">有的地方可以再简洁一点的</li>
+                <li class="li3">有点可爱，哇哦</li>
+                <li class="li3"></li>
+                <li class="li3"></li>
+                <li class="li3"></li>
+            </ul>
+        </div>
+        <script>
+            $(function () {
+                $(" .btn").on("click", function () {
+                    var li = $(".li3");
+                    li.html($(".txt").val());//复制以及加上删除按钮
+                    $(".ul22").prepend(li);
+                    li.slideDown();
+                    $(".txt").val("");
+
+                    $(".ul22").on("click", ".a1", function () {
+                        $(this).parent().slideUp(function () {
+                            $(this).remove();
+                        });
+                    })
+                })
+
+            })
+        </script>
+        </li>
+
+        </ul>
+
+
+    </div>
+</body>
+
+</html>

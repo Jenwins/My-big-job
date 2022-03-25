@@ -1,0 +1,241 @@
+.head1 {
+    position: relative;
+}
+
+.head {
+    width: 300px;
+    height: 296px;
+    margin: 50px 0px;
+    border: 2px dotted pink;
+    text-align: center;
+    position: absolute;
+    right: 151px;
+    background-color: white;
+
+}
+
+.word {
+    font-family: 仿宋;
+    font-size: 20px;
+    color: palevioletred;
+    margin-top: 10px;
+}
+
+
+
+
+
+.head li {
+    list-style: none;
+    height: 40px;
+}
+
+
+
+.box0 {
+
+    position: relative;
+    top: 400px;
+}
+
+.box1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: white;
+}
+
+.box11 {
+    width: 30%;
+    height: 200px;
+    background-color: rgba(238, 227, 213, 0.2);
+    border: 1px dotted pink;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.box12 {
+    width: 30%;
+    height: 200px;
+    background-color: rgba(238, 227, 213, 0.2);
+    border: 1px dotted pink;
+    position: absolute;
+    left: 35%;
+    top: 25px;
+
+}
+
+.box13 {
+    width: 30%;
+    height: 200px;
+    background-color: rgba(238, 227, 213, 0.2);
+    border: 1px dotted pink;
+    position: absolute;
+    left: 68%;
+    top: 25px;
+
+}
+
+#rabbit {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+#rabbit:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.word2 {
+    margin-left: 170px;
+    font-family: 仿宋;
+}
+
+
+
+.box2 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: white;
+}
+
+.box21 {
+    width: 30%;
+    height: 200px;
+    background-color: rgba(238, 227, 213, 0.2);
+    border: 1px dotted pink;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+
+.box22 {
+    width: 30%;
+    height: 200px;
+    background-color: rgba(238, 227, 213, 0.2);
+    border: 1px dotted pink;
+    position: absolute;
+    left: 35%;
+    top: 25px;
+
+}
+
+.box23 {
+    width: 30%;
+    height: 200px;
+    background-color: rgba(238, 227, 213, 0.2);
+    border: 1px dotted pink;
+    position: absolute;
+    left: 68%;
+    top: 25px;
+
+}
+
+
+
+.box11 {
+    width: 300px;
+    height: 200px;
+    border: 1px solid pink;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+.box img:hover {
+    box-shadow: 3px 2px 2px rgba(85, 5, 5, 0.5);
+
+}
+
+
+.p1 {
+    width: 100%;
+    height: 35px;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, .5);
+    line-height: 35px;
+    margin-top: -39px;
+    font-size: 20px;
+    font-family: 仿宋;
+    opacity: 0.9;
+}
+
+.p1:hover {
+    color: pink;
+    transition: 1s;
+
+}
+
+.p2 {
+    width: 100%;
+    height: 60px;
+    color: thistle;
+    background-color: rgba(0, 0, 0, .5);
+    font-size: 14px;
+    margin-top: -105px;
+    opacity: 0.9;
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+
+.box0 a {
+    text-decoration: none;
+    color: rgb(168, 105, 144);
+
+}
+
+.box0 a:hover {
+    color: rgb(26, 162, 196);
+    font-size: 17px;
+}
+
+.banner1 {
+    position: absolute;
+    top: 201px;
+    right: 230px;
+
+}
+
+.li2 {
+    padding: 4px;
+    list-style: none;
+    float: left;
+    margin: 20px;
+    background-color: cornsilk;
+    border-radius: 10px;
+    opacity: 0.9;
+
+}
+
+.box4 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    /* background-color: white; */
+    top: 50px;
+    border: 2px dotted pink;
+    opacity: 0.6;
+}
+.box5 {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    top: 50px;
+    
+}

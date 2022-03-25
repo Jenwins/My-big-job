@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    opacity: 0.8;
+}
+
+div {
+    text-align: center;
+    margin-top: 120px;
+    opacity: 1;
+}
+
+li {
+    font-size: 100px;
+    list-style: none;
+    color: blanchedalmond;
+    float: left;
+    margin: 0 20px;
+    display: none;
+}
+
+ul {
+    margin: 0 300px;
+}
+
+.lis {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.active {
+    display: block;
+}
